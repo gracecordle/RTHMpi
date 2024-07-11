@@ -30,6 +30,7 @@ network={
 	eap=PEAP
 	identity=\"${entidentity}\"
 	password=hash:${entpassword}
+	phase2="auth=MSCHAPV2"
 }
 
 EOF
